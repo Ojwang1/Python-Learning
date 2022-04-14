@@ -1,0 +1,225 @@
+if 5 >2:
+    print("Five is greater than two!")
+
+x=5
+y="Hellow,World!"
+#Comments
+print("Hellow World")
+
+#print("Hellow ,World!")
+print("Cheers,Mate!")
+
+#Addition
+x=5
+y=10
+print(x+y)
+#Addition2
+
+x=5
+y="John"
+print(x,y)
+
+#Global V
+x= "awesome"
+def myfunc():
+ x="fantastic"
+print("Python is " + x)
+
+myfunc()
+print("Python is " + x)
+ # Think of it
+
+def milly():
+ global x
+ x= "fantastic"
+myfunc()
+print("Python is " + x)
+
+    #Data Type Lesson
+x=1
+y= 3565222554887711
+z= -3255522
+print(type(x))
+print(type(y))
+print(type(z))
+
+ #Complex
+x=3+5j
+y=5j
+z= -5j
+print(type(x))
+print(type(y))
+print(type(z))
+
+    #Convert from one type to another:
+x=1 # int
+y=2.8 # flot
+z=1j  # complex
+    #convert from int to float:
+a = float(x)
+    #convert from float to int:
+b =complex(y)
+    #convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+       #String
+a="This is a big book"
+print(a)
+
+b="Hellow World!"
+print(b[:-2])
+ #String Concatenation
+a="Hello"
+b="World"
+c=a +"" + b
+print(c)
+  #This is the first code
+age=36
+txt="My name is John,and I am {}"
+print(txt.format(age))
+# The End
+
+   #Boolean Flase or True
+print(10>9)
+print(10==9)
+print(10<9)
+
+a=200
+b=33
+if b>a:
+   print("b is greater than a")
+else:
+   print("b is not greater than a")
+
+
+print(bool("Hellow"))
+print(bool(15))
+
+print(bool(x))
+print(bool(y))
+
+def myFunction():
+    print("YES!")
+    print("NO")
+
+# List
+
+thislist=["apple","banana","chewy"]
+list1=["apple","banana","chewy"]
+
+list2=[1,5,7,a,3]
+#list3=[True,Flase,Flase]
+
+# A list can contain different data type
+list=["abc",34,True,40,"male"]
+
+#Access
+
+thislist=("banana","apple","mango","berry","lemon")
+
+#Negative Indexes
+thislist=["apple","banana","cherry","kiwi","melon","mango"]
+print(thislist[-4:-1])
+
+#OPerators 28/3/2022
+x=15
+y=20
+z=(x+y)
+print(z)
+
+x=15
+y=20
+z=(y-x)
+print(z)
+a=1000
+b=5
+c=9
+d=(a/b)* c
+print(d)
+
+x=7
+y=10
+print(x*y)
+
+x=7
+y=10
+print(x+y)
+ #Division
+x=74
+y=10
+print(x/y)
+print(x%y)
+
+#Flow Division
+x=74
+y=10
+print(x//y)
+#Comparision
+y=11
+x=14
+x=y
+print(x)
+y=11
+x=14
+x==y
+print(y)
+print(x)
+
+x=14
+y=11
+z="Condition True"
+(x>y)
+print(y)
+print(z)
+
+x=True
+y=False
+#print(x and y "is" x and y )
+print(not x)
+print(not y)
+
+#List
+thislist=["apple","banana","Berry"]
+print(len(thislist))
+
+list1=["apple","banana","berry","kiberiti"]
+list2=["benz","toyota",]
+list3=["banana"]
+print(list1)
+print(list2)
+print(list3)
+ # How to access a list?
+
+ #Insert
+a=[1, 2, 3]
+a .insert(3, "kiberiti")
+a .insert(3,"Kuku")
+a.remove("kuku")
+print(a)
+
+
+
+
+print(people)
+
+del people['htanaka']
+print(people)
+
+# Difine a dictionary named people.
+people ={
+    'htanaka': 'Haru Tanaka',
+    'zmin':'Zhang Min',
+    'afarooqi':'Ayesha Farooqi',
+
+}
+# Make a copy of the people dictionary and put it in peeps 2.
+peeps2=people.copy()
+#Show what's in both dictionaries
+
+print(people)
+print(peeps2)
