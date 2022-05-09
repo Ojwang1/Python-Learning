@@ -12,7 +12,7 @@ z=(x+y)
 try:
     print(z)
 except:
-    print("Ojwang Nicholas")
+    print("Nicholas Nicholas")
 else:
     print("is there")
 finally:
@@ -61,7 +61,7 @@ print("Username is:" + username)
 
 # Oppening and Reading a file
 
-f = open("Ojwang.txt")
+f = open("Nicholas.txt")
 print(f.read())
 
 # Read Only Parts of the File.

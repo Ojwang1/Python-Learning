@@ -17,7 +17,7 @@ del people["ppatel"]
 print(people)
 
 #Tuples
-Names=("Ojwang","Mike","Njery","Paule","Omolo")
+Names=("Nicholas","Mike","Njery","Paule","Omolo")
 print(Names)
 print(len(Names))
 a = list(Names)

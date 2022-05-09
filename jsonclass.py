@@ -28,29 +28,29 @@ print(json.dumps(x,indent=4))
 #RegEx in Pythone
 
 import re
-txt="The rain in Kenya is made by Ojwang"
-x=re.search("^The.*Ojwang$",txt)
+txt="The rain in Kenya is made by Nicholas"
+x=re.search("^The.*Nicholas$",txt)
 print(x)
 
 import re
-txt="The rain in Kenya is made by Ojwang"
-x=re.findall("^The.*Ojwang$",txt)
+txt="The rain in Kenya is made by Nicholas"
+x=re.findall("^The.*Nicholas$",txt)
 print(x)
 
 import re
-txt="The rain in Kenya is made by Ojwang"
-x=re.split("^The.*Ojwang$",txt)
+txt="The rain in Kenya is made by Nicholas"
+x=re.split("^The.*Nicholas$",txt)
 print(x)
 
 import re
-txt="The rain in Kenya is made by Ojwang"
-x=re.sub("^The.*Ojwang$",txt)
+txt="The rain in Kenya is made by Nicholas"
+x=re.sub("^The.*Nicholas$",txt)
 print(x)
 
 #Example2
 import re
 txt="wayanicholas@gmail.com"
-x=re.sub("^The.*Ojwang$",txt)
+x=re.sub("^The.*Nicholas$",txt)
 print(x)
 
 

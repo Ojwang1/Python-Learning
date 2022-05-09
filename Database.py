@@ -5,6 +5,7 @@ mydb=mysql.connector.connect(
     password="yourpassword"
 )
 print(mydb)
+
 # Check if Database Exits
 import mysql.connector
 mydb=mysql.connector.connect(
